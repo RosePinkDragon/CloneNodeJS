@@ -1,0 +1,10 @@
+<footer>Copyright &copy; Moheb's Blog 2021</footer>
+<script>
+  const links = document.querySelectorAll(".link");
+
+  links.forEach((link) => {
+    if (link.attributes.href.value === window.location.pathname) {
+      link.classList.add("active");
+    }
+  });
+</script>

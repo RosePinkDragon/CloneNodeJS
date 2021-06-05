@@ -1,0 +1,102 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moheb's Blogs | <%= title %></title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+
+    * {
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      color: #222;
+    }
+
+    body {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 0 20px;
+      font-family: "Noto Serif", serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 60px;
+      padding: 0 0 10px 0;
+      border-bottom: 1px solid #dcdcdc;
+      text-transform: uppercase;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    nav li {
+      list-style: none;
+      margin-left: 20px;
+    }
+
+    nav h1 {
+      font-size: 3em;
+    }
+
+    nav p,
+    .link {
+      padding-bottom: 10px;
+      color: #333;
+      font-weight: 400;
+    }
+
+    .link.active {
+      color: crimson;
+      border-bottom: crimson 2px solid;
+    }
+
+    footer {
+      color: #777;
+      text-align: center;
+      margin: 100px auto 20px;
+    }
+
+    .content {
+      margin-left: 20px;
+    }
+    .create-blog form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .create-blog input,
+    .create-blog textarea {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 8px;
+    }
+    .create-blog label {
+      display: block;
+      margin-top: 24px;
+    }
+    textarea {
+      height: 120px;
+    }
+
+    button {
+      width: fit-content;
+      display: flex;
+      justify-content: center;
+      /* margin: 20px auto 0px; */
+      margin: 20px auto 0px;
+      border-radius: 5px;
+      background: crimson;
+      color: white;
+      padding: 6px 10px;
+      border: 0;
+      font-size: 1.2em;
+      cursor: pointer;
+    }
+  </style>
+</head>
